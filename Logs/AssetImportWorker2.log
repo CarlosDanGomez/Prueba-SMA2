@@ -1,0 +1,570 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16219 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Normal unity stuff/Prueba SMA2
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52429
+Successfully changed project path to: D:/Normal unity stuff/Prueba SMA2
+D:/Normal unity stuff/Prueba SMA2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20384] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2488800556 [EditorId] 2488800556 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GEUJLTM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20384] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2488800556 [EditorId] 2488800556 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GEUJLTM1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Normal unity stuff/Prueba SMA2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010137 seconds.
+- Loaded All Assemblies, in  0.369 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.259 seconds
+Domain Reload Profiling: 626ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (113ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.604 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.740 seconds
+Domain Reload Profiling: 1343ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (741ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (536ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (413ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (0.8 MB). Loaded Objects now: 5378.
+Memory consumption went from 202.4 MB to 201.6 MB.
+Total: 4.789500 ms (FindLiveObjects: 0.418700 ms CreateObjectMapping: 0.179300 ms MarkObjects: 3.797300 ms  DeleteObjects: 0.393100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23740.478508 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/bed.mat
+  artifactKey: Guid(4ee8702e8f868b04b92185b1302489f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/bed.mat using Guid(4ee8702e8f868b04b92185b1302489f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2de4a9ac2a1da62d2e827d95145cc3') in 0.299002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/towl_2.mat
+  artifactKey: Guid(d796445f419d9874d8d6f09dee7d0fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/towl_2.mat using Guid(d796445f419d9874d8d6f09dee7d0fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0f7ee179befac4fa6235706793a8f5') in 0.019320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/DrainerNew.mat
+  artifactKey: Guid(d8431a273a4d9e44593372bbd3a9d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/DrainerNew.mat using Guid(d8431a273a4d9e44593372bbd3a9d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c33ba30bf04115a08dac4fb0309c816') in 0.045602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/palm_Leaf.mat
+  artifactKey: Guid(dde5ea878adab9a46b6ca12e58109f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/palm_Leaf.mat using Guid(dde5ea878adab9a46b6ca12e58109f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91aeef50cab5023635c87f54a58da5f1') in 0.007002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/teatable.mat
+  artifactKey: Guid(3e4e01555ed51e549aaa01676f9361a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/teatable.mat using Guid(3e4e01555ed51e549aaa01676f9361a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e975145c357b2607d7eab3fe39b313') in 0.022041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/bedside_lamp1.mat
+  artifactKey: Guid(d56a4d29ce55da24590399d455d6a0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/bedside_lamp1.mat using Guid(d56a4d29ce55da24590399d455d6a0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cb80097393b5715c2f3abd938c9bc8') in 0.011020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/bathroom_floor3.mat
+  artifactKey: Guid(f8c17ff9f8feeb741aaeddeed04b5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/bathroom_floor3.mat using Guid(f8c17ff9f8feeb741aaeddeed04b5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ff81c3438ca2a3bcbfcf41d10b0f45') in 0.020517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/Cutlery.mat
+  artifactKey: Guid(ca036a9211fcb89459f19455d5c956dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/Cutlery.mat using Guid(ca036a9211fcb89459f19455d5c956dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f85b2a17b991a5b7c86e7be771de23') in 0.016372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/gold_tap_handle 1.mat
+  artifactKey: Guid(ea806995da8404f4b96e6726f11d8a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/gold_tap_handle 1.mat using Guid(ea806995da8404f4b96e6726f11d8a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d48e1666dc08d2026229f2f253390a2') in 0.032682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/knife-block.mat
+  artifactKey: Guid(50ea418d774f1f44fbaa7b9402286c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/knife-block.mat using Guid(50ea418d774f1f44fbaa7b9402286c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c890f8cfeb91b43278c846eefe219a') in 0.017268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/Paintings_House_1.mat
+  artifactKey: Guid(364cd3221926eca4ab567684bb1dc1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/Paintings_House_1.mat using Guid(364cd3221926eca4ab567684bb1dc1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba2e4e819d43c1264e9ea19b5fad0ff') in 0.025866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/livingroom_foto.mat
+  artifactKey: Guid(41463ea681f9cdf49b676e8f6c0ae1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/livingroom_foto.mat using Guid(41463ea681f9cdf49b676e8f6c0ae1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c01a428bf67c776952cb5059d6dd5b') in 0.026762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/Mirror01.mat
+  artifactKey: Guid(7cd3f9a5e79dc3b42a8bf0afa28f36be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/Mirror01.mat using Guid(7cd3f9a5e79dc3b42a8bf0afa28f36be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dc9e7658661c91da0756f6d2e8a789') in 0.008688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/switch2.mat
+  artifactKey: Guid(0d680d986d494944c95ccbac773fd978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/switch2.mat using Guid(0d680d986d494944c95ccbac773fd978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee75ffaba2696fc6c0d809664c320e69') in 0.008042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/green_wood_2.mat
+  artifactKey: Guid(b79e4d4451b07714b978535f06b9b11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/green_wood_2.mat using Guid(b79e4d4451b07714b978535f06b9b11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08db98267627d9ed270eb38d0183601') in 0.027779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/glass_wall_glass4.mat
+  artifactKey: Guid(008b48c168d07c8449b55d0ad65c3824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/glass_wall_glass4.mat using Guid(008b48c168d07c8449b55d0ad65c3824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894703c597d5fbc2b86c1eff7cd7ab78') in 0.031510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/PictureBorder01.mat
+  artifactKey: Guid(f9754145af43a3247b531a19a3f24f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/PictureBorder01.mat using Guid(f9754145af43a3247b531a19a3f24f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b051d79663cae665fd4dd75c5ea283f3') in 0.008783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/bathroom_shelf.mat
+  artifactKey: Guid(4b3b75ab9f8a5b54686f043b939225b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/bathroom_shelf.mat using Guid(4b3b75ab9f8a5b54686f043b939225b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27479677d5d02e02fadec4c076503b19') in 0.019925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/phong1.mat
+  artifactKey: Guid(c6fc8e8d24a39324da3a81ba04501f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/phong1.mat using Guid(c6fc8e8d24a39324da3a81ba04501f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e59a4ac4d4cea1948407879da9c193e') in 0.015016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/steel.mat
+  artifactKey: Guid(d5cc4092e0588e7429a3317fee49c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/steel.mat using Guid(d5cc4092e0588e7429a3317fee49c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481e123ea4f8b14a49ea3cd491536052') in 0.035674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/induction-hob.mat
+  artifactKey: Guid(efaa9a8a6a323b84d9029a194dd5477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/induction-hob.mat using Guid(efaa9a8a6a323b84d9029a194dd5477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f2e9ca5f6a9b2eed793675d8897396') in 0.029164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/book_2.mat
+  artifactKey: Guid(df1394e11e6de2b4190fe2d264cb77ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/book_2.mat using Guid(df1394e11e6de2b4190fe2d264cb77ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aabe7e5578068e035e01d05f40c1555') in 0.008583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/gold_tap_handle_2.mat
+  artifactKey: Guid(fa5f85b9119040d48b09a9af628604ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/gold_tap_handle_2.mat using Guid(fa5f85b9119040d48b09a9af628604ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efd35faaf01dfef83d5bcaf87918f03') in 0.034464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/Living_Room_lamp_2.mat
+  artifactKey: Guid(8ecea48578efe0b409fa2e7fe722ead4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/Living_Room_lamp_2.mat using Guid(8ecea48578efe0b409fa2e7fe722ead4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36a0ab337d7634583fea87b8aa3a166') in 0.006491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/Book7.mat
+  artifactKey: Guid(584bf7dd40d1eff4eb424839d22b6141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/Book7.mat using Guid(584bf7dd40d1eff4eb424839d22b6141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4910e7633d31686241b6c7e7f831ed1') in 0.009236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/Book4.mat
+  artifactKey: Guid(015fba4407f8dc745a9e0e9308a43699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/Book4.mat using Guid(015fba4407f8dc745a9e0e9308a43699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8510b6d8405671c4c9846949ea08ea00') in 0.010144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/defaultMat.mat
+  artifactKey: Guid(9900f0f54290cea4796427d82945cfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/defaultMat.mat using Guid(9900f0f54290cea4796427d82945cfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a66d4e76ba2fb9d128e8a902d99df73') in 0.016824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/bed_lamp_glass1.mat
+  artifactKey: Guid(0476d91d11d6954499adc7d2a79ddfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/bed_lamp_glass1.mat using Guid(0476d91d11d6954499adc7d2a79ddfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628be33322b569df02e8a1a14c5b43bd') in 0.018669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/TV VideoPlayer.mat
+  artifactKey: Guid(c2d246b05430bc94cb2fd24121824b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/TV VideoPlayer.mat using Guid(c2d246b05430bc94cb2fd24121824b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03834e6750dab68852bceb607e34499d') in 0.045031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/banana.mat
+  artifactKey: Guid(8929bd2b4cca4dd4b94e6a970891aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/banana.mat using Guid(8929bd2b4cca4dd4b94e6a970891aee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae0a9707431d5bfd387f820f0359832') in 0.008369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/bed_coat.mat
+  artifactKey: Guid(bc1d2a062c9df8d479f4bedc28f66f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/bed_coat.mat using Guid(bc1d2a062c9df8d479f4bedc28f66f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c5787e9479387d2dbd653e2e40e05a') in 0.027908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/dressing_mirror_glass.mat
+  artifactKey: Guid(7ddcf91acb54342419dd991d9086774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/dressing_mirror_glass.mat using Guid(7ddcf91acb54342419dd991d9086774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfd3273246f59aa84e24dd07c14029c') in 0.007539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/Socket.mat
+  artifactKey: Guid(03d392b7533ea364385a659548bec1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/Socket.mat using Guid(03d392b7533ea364385a659548bec1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835876c5d8292b3adbe3b6cd4c271a13') in 0.017782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/study_chair_seat.mat
+  artifactKey: Guid(1c05af769159a3145bb58ad7d08ab97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/study_chair_seat.mat using Guid(1c05af769159a3145bb58ad7d08ab97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f85ed13dde7533af3415c18e9a4273e') in 0.014376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/balcony_table_2.mat
+  artifactKey: Guid(36ad89314c505fd42a69c0399d23681f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/balcony_table_2.mat using Guid(36ad89314c505fd42a69c0399d23681f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d9d166a5a1927359909280beca2047') in 0.014189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/Notepad.mat
+  artifactKey: Guid(4d1c559756768b94197583a31aca5bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/Notepad.mat using Guid(4d1c559756768b94197583a31aca5bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0c499ee7ca816426ea8b15653829ce') in 0.035455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/Window_1.mat
+  artifactKey: Guid(ae6fe5718214f4a448775964ff81e810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/Window_1.mat using Guid(ae6fe5718214f4a448775964ff81e810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4f13b3625542a612ee3e62cfc7c896') in 0.009049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/CommonCeramic02Biege.mat
+  artifactKey: Guid(4e632116817848e4697d7a4c038f5566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/CommonCeramic02Biege.mat using Guid(4e632116817848e4697d7a4c038f5566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737f6db432eca28c6cf1098cbde673ec') in 0.021143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/washingMachine.mat
+  artifactKey: Guid(76e5b83b916d91a45b05dfa43946b5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/washingMachine.mat using Guid(76e5b83b916d91a45b05dfa43946b5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8447b2e55717d048f6132785d22bbe96') in 0.016637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/TV.mat
+  artifactKey: Guid(bae92872f8def814aa56d38b83872bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/TV.mat using Guid(bae92872f8def814aa56d38b83872bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1594aa6e68e06927e1f762f9ceaf4e9a') in 0.017952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/Paintings_House_4.mat
+  artifactKey: Guid(859c7f67d5ea0c643a0f7c8832fcd2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/Paintings_House_4.mat using Guid(859c7f67d5ea0c643a0f7c8832fcd2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b85903ef6e937bf00d52f972413c16') in 0.029617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/pattern_wall.mat
+  artifactKey: Guid(aa836f3edcc065f499123139a8482262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/pattern_wall.mat using Guid(aa836f3edcc065f499123139a8482262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea537dc89b9145d72c76b3dba9e5f16') in 0.021436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/Sofa Set.mat
+  artifactKey: Guid(b249a99e3ba8bb54d8d51ca9362ab5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/Sofa Set.mat using Guid(b249a99e3ba8bb54d8d51ca9362ab5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5df5d12fa5db5133e199e2b1cc21de') in 0.024646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/ceiling_light.mat
+  artifactKey: Guid(20198fd9cba9f9e438e0fabbf72ec944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/ceiling_light.mat using Guid(20198fd9cba9f9e438e0fabbf72ec944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78f1ab223e24a9c703380b32e264881') in 0.007589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/toilet_wood_1.mat
+  artifactKey: Guid(dbb709c26c7673949a486d24f29d8d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/toilet_wood_1.mat using Guid(dbb709c26c7673949a486d24f29d8d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c667f11d5636f1a88719ee11015e175') in 0.022073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/metaldryer.mat
+  artifactKey: Guid(118be71a95b2f214d9253a3ffc192d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/metaldryer.mat using Guid(118be71a95b2f214d9253a3ffc192d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b2c2916c449e43741c75276226194e') in 0.017231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/NewCarpet.mat
+  artifactKey: Guid(882f8e621c8f5d54da7a75e25d1b9f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/NewCarpet.mat using Guid(882f8e621c8f5d54da7a75e25d1b9f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2aba60d4788f37c838d2043f47606c0') in 0.013156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DevDen Arch Viz Scotland HDRP/Materials/green_wood.mat
+  artifactKey: Guid(de54296d2017e204a912ae037e46c387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland HDRP/Materials/green_wood.mat using Guid(de54296d2017e204a912ae037e46c387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c0e790134beea91a2aa024c547bf2a') in 0.016448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
